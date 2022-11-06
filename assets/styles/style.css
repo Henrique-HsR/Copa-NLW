@@ -47,7 +47,7 @@ body * {
 #app {
   width: fit-content;
   margin: auto;
-  padding-top: 52px;
+  padding: 40px 0px;
 }
 
 #cards {
@@ -58,7 +58,7 @@ body * {
 
 header {
   text-align: center;
-  margin-bottom: 63px;
+  margin-bottom: 20px;
 }
 
 #toggles {
