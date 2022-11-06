@@ -23,6 +23,18 @@ function createCard(date, day, games) {
                     `
 }
 
+function toggleBgBlue(){
+  document.body.setAttribute('class', 'blue');
+}
+
+function toggleBgGreen() {
+  document.body.setAttribute('class', 'green');
+}
+
+function toggleBgYellow() {
+  document.body.removeAttribute('class');
+}
+
 document.querySelector('#cards'). innerHTML = 
             createCard('24/11', 'quinta', 
               createGame('brazil', '16:00', 'serbia'))+

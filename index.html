@@ -8,16 +8,16 @@
         <link rel="stylesheet" href="./assets/styles/style.css">
     </head>
     <body>
-        <div id="container" class="blue">
-            <div>
-                <div id="app">
-                    <header>
-                        <img src="./assets/logo.svg" alt="logo Copa NLW">
-                    </header>
-                    <main id="cards"></main>
+        <div id="app">
+            <header>
+                <div id="toggles">
+                    <button class="blue" onclick="toggleBgBlue()"></button>
+                    <button class="green" onclick="toggleBgGreen()"></button>
+                    <button class="yellow" onclick="toggleBgYellow()"></button>
                 </div>
-            
-            </div>
+                <img src="./assets/logo.svg" alt="logo Copa NLW">
+            </header>
+            <main id="cards"></main>
         </div>
         <script src="scripts/main.js"></script>
     </body>
